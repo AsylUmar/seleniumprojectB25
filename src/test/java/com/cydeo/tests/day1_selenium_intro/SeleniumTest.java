@@ -10,6 +10,7 @@ public class SeleniumTest {
         WebDriverManager.chromedriver().setup();
 
         //2 - create instance of the chrome driver
+        //this line will open our chrome
         WebDriver driver=new ChromeDriver();
 
         //3- Test if driver is working as expected
